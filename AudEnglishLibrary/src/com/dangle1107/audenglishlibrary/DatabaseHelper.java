@@ -34,7 +34,7 @@ public class DatabaseHelper extends SQLiteOpenHelper{
    
     private static final int DATABASE_VERSION = 3;
     public String OLD_DB_NAME = "AudEnglish.sqlite3";
-    public static final String DB_NAME = "AudEnglish_1_0_0.sqlite3";
+    public static final String DB_NAME = "AudEnglish_1.sqlite3";
 	//Path to the device folder with databases
     public static String DB_PATH;
     //Database file name
