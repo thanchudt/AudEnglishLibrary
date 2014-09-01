@@ -1,7 +1,5 @@
 package com.dangle1107.audenglishlibrary;
 
-import com.dangle1107.audenglishlibrary.R.string;
-
 public class Utilities {
 	
 	public Utilities(){	
