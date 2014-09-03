@@ -36,7 +36,7 @@
             android:background="@null" />
     </LinearLayout>
     <!-- Song Thumbnail Image -->
-    <!--  <LinearLayout
+    <LinearLayout
         android:id="@+id/songThumbnail"
         android:layout_width="fill_parent" 
         android:layout_height="230dp"
@@ -44,43 +44,19 @@
         android:gravity="center"
         android:layout_below="@id/player_header_bg"
         android:orientation="horizontal">        
-        <ImageView android:id="@+id/songImage" 
+        <!--  <ImageView android:id="@+id/songImage" 
             android:layout_width="fill_parent"
 	        android:layout_height="fill_parent"
-	        android:src="@drawable/adele"/>    
-    </LinearLayout>-->
-    <FrameLayout 
-        android:id="@+id/songThumbnail"
-		android:layout_width="fill_parent" 
-        android:layout_height="230dp"
-        android:paddingTop="10dp"
-        android:gravity="center"
-        android:layout_below="@id/player_header_bg"
-        android:orientation="horizontal">
-		
-		<ImageView android:id="@+id/songImage" 
-            android:layout_width="fill_parent"
-	        android:layout_height="fill_parent"
-	        android:src="@drawable/adele"/>    
-
-		<ImageView
-		    android:id="@+id/overlay"
-		    android:layout_width="fill_parent"
-		    android:layout_height="50dp"
-		    android:layout_gravity="bottom"
-		    android:alpha=".75"
-		    android:background="#333333" />
-
-		<TextView 
+	        android:src="@drawable/adele"/>-->    
+	    <TextView android:id="@+id/songImage"
        	    android:layout_width="fill_parent"
 	        android:layout_height="fill_parent"
-            android:layout_gravity="center"
-            android:gravity="bottom|center_horizontal"
-            android:paddingBottom="20dp"
-            android:background="#00000000" 
-            android:textColor="#ffffff"
-            android:text="I have to come back" />		
-	</FrameLayout>
+               android:layout_gravity="center"
+               android:background="@drawable/adele"
+               android:gravity="bottom|center_horizontal"
+               android:text="I have to come back" />
+        
+    </LinearLayout>    
     <!-- Player Footer -->
 	<LinearLayout
 	    android:id="@+id/player_footer_bg"

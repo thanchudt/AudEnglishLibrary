@@ -115,36 +115,38 @@ public final class R {
         public static int seekbar_progress_bg=0x7f020065;
     }
     public static final class id {
-        public static int btnBackward=0x7f060009;
-        public static int btnForward=0x7f06000b;
-        public static int btnNext=0x7f06000c;
-        public static int btnPlay=0x7f06000a;
+        public static int btnBackward=0x7f06000a;
+        public static int btnForward=0x7f06000c;
+        public static int btnNext=0x7f06000d;
+        public static int btnPlay=0x7f06000b;
         public static int btnPlaylist=0x7f060003;
-        public static int btnPrevious=0x7f060008;
-        public static int btnRepeat=0x7f060010;
-        public static int btnShuffle=0x7f060011;
-        public static int btnSpeak=0x7f06000f;
-        public static int lvSong=0x7f060015;
+        public static int btnPrevious=0x7f060009;
+        public static int btnRepeat=0x7f060011;
+        public static int btnShuffle=0x7f060012;
+        public static int btnSpeak=0x7f060010;
+        public static int lvSong=0x7f060016;
         public static int mainlayout=0x7f060000;
-        public static int player_buttons=0x7f060007;
-        public static int player_footer_bg=0x7f060006;
+        public static int overlay=0x7f060006;
+        public static int player_buttons=0x7f060008;
+        public static int player_footer_bg=0x7f060007;
         public static int player_header_bg=0x7f060001;
-        public static int player_repeat=0x7f060013;
-        public static int songCurrentDurationLabel=0x7f06000e;
+        public static int player_repeat=0x7f060014;
+        public static int songCurrentDurationLabel=0x7f06000f;
         public static int songImage=0x7f060005;
-        public static int songProgressBar=0x7f06000d;
+        public static int songProgressBar=0x7f06000e;
         public static int songThumbnail=0x7f060004;
         public static int songTitle=0x7f060002;
-        public static int songTotalDurationLabel=0x7f060012;
-        public static int timerDisplay=0x7f060014;
+        public static int songTotalDurationLabel=0x7f060013;
+        public static int timerDisplay=0x7f060015;
     }
     public static final class layout {
         public static int bg_player_footer=0x7f030000;
         public static int bg_player_header=0x7f030001;
         public static int grounded_corner=0x7f030002;
         public static int player=0x7f030003;
-        public static int playlist=0x7f030004;
-        public static int playlist_item=0x7f030005;
+        public static int player_20140901=0x7f030004;
+        public static int playlist=0x7f030005;
+        public static int playlist_item=0x7f030006;
     }
     public static final class string {
         public static int app_name=0x7f040000;
